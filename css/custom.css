@@ -1,0 +1,117 @@
+header
+{
+  position: absolute;
+  top: 1%;
+  font-size: 12px;
+  color: #6C6F73;
+}
+
+footer
+{
+  position: absolute;
+  bottom: 1%;
+  font-size: 12px;
+  color: #6C6F73;
+}
+
+:root{
+    --main-theme-color:#09c5ab;
+    --sidebar-bg-color:#f5f6f7;
+    --sidebar-highlight-color:#bedcd8;
+    --main-highlight-color:#02a59c;
+    --default-text-color:#3d4449;
+    --lowlight-color:#9fa3a6;
+}
+
+
+.image-attribution{
+  font-size: 8px;
+  color: #6C6F73;
+}
+
+.hk
+{
+    font-family: 'Dawning of a New Day', cursive;
+    color: var(--main-highlight-color) !important;
+    font-weight:500;
+}
+
+footer .hk
+{
+   font-size: 20px;
+}
+
+.title > * footer {
+    display: none;
+}
+
+.title > * header {
+    display: none;
+}
+
+.name{
+    font-family: 'Dawning of a New Day', cursive;
+    color: var(--main-highlight-color) !important;
+    font-weight:500;
+    font-size: 2em;
+}
+
+.sub-title{
+  font-size:24px
+}
+
+.gray{
+  color: #6C6F73;
+}
+
+.small{
+  font-size: 0.8em;
+}
+
+
+.medium-text
+{
+  font-size: 70%;
+}
+
+.small-text{
+  font-size: 50%;
+}
+
+.xsmall-text{
+  font-size: 40%;
+}
+
+.italic
+{
+  font-style: italic;
+}
+
+#main-title
+{
+  line-height: 1.0;
+  margin-bottom: 10px;
+}
+
+#subtitle
+{
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-size: 70%;
+}
+
+.margin-top-25
+{
+  margin-top: 25px;
+}
+
+.reveal section .caption
+{
+  margin-top: -15px;
+  line-height: 1.0;
+}
+
+img {
+  margin-bottom: 0em !important;
+}
